@@ -1,2 +1,4 @@
-# Cat_Dog-Predection-CNN
-Basic Cat_Dog Predection using CNN
+# Cat and Dog-Predection-CNN
+This project uses a Convolutional Neural Network (CNN) to determine whether an input image is a cat or a dog. The project includes training a CNN model using the Keras library and TensorFlow framework. The dataset used for training the model contains images of cats and dogs, and the labels are assigned as 0 for cats and 1 for dogs.
+To enhance the dataset, more images of cats and dogs can be added to the existing dataset and the model can be retrained with the updated dataset. The ImageDataGenerator class from Keras can be used to augment the dataset by applying random transformations such as rotation, width and height shift, shear transformations, zooming, and horizontal flipping.
+To create a user interface (UI) for this project, Flask can be  used to build a web application. The Flask app includes a form to upload an image, and the uploaded image is passed to the CNN model to predict whether the image is a cat or a dog. The prediction result is then displayed on the web page.
